@@ -1,0 +1,45 @@
+* {
+    border-radius: 30px;
+    padding: 8px;
+    text-align: center;
+}
+body {
+min-height: 100vh;
+transition: 5s;
+
+}
+
+img {
+    margin: 0 auto;
+    height: 200px;
+    visibility: hidden;
+    transition: 1s;
+}
+
+.show {
+    visibility: visible;
+}
+.mousemove {
+    height: 50px;
+    width: 50px;
+    border: 2px solid blueviolet;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+nav {
+    background: yellowgreen;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top:-50;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
